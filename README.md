@@ -156,7 +156,7 @@ The **Invoice and Product Management System** is a desktop-based application des
 ---
 
 ## 🗂️ Project Structure
-
+```
 invoice-product-management/
 │
 ├── main.py
@@ -244,7 +244,7 @@ The **Online Shopping and Delivery System** is a full-stack web application desi
 ---
 
 ## 🗂️ Project Structure
-
+```
 online-shopping-delivery/
 │
 ├── backend/
@@ -270,11 +270,8 @@ online-shopping-delivery/
 │
 ├── README.md
 └── .gitignore
+```
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -364,7 +361,7 @@ The **College Management System (CMS)** is a full-stack application designed to 
 ---
 
 ## 🗂️ Project Structure
-
+```
 college-management-system/
 │
 ├── backend/
@@ -389,11 +386,7 @@ college-management-system/
 │
 ├── README.md
 └── .gitignore
-
-yaml
-Copy code
-
----
+```
 
 ## ⚙️ Installation & Setup
 
