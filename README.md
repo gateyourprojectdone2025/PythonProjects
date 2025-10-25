@@ -470,31 +470,27 @@ A smart, AI-assisted blogging and content-sharing platform built using Python th
 -Content summarization & grammar correction.
 
 ## Steps to Run Locally
-# Clone the repository
-```
-git clone https://github.com/your-username/smart-blogging-platform-python.git
-```
 
-# Navigate into the project folder
+**Navigate into the project folder**
 ```
 cd smart-blogging-platform-python
 ```
 
-# Create a virtual environment
+**Create a virtual environment**
 ```
 python -m venv venv
 ```
-# Activate virtual environment
-# For Windows:
+**Activate virtual environment**
+**For Windows:**
 ```
 venv\Scripts\activate
 ```
-# For Linux/Mac:
+**For Linux/Mac:**
 ```
 source venv/bin/activate
 ```
 
-# Install dependencies
+**Install dependencies**
 ```
 pip install -r requirements.txt
 ```
@@ -530,7 +526,7 @@ The system allows adding, updating, issuing, and returning books with real-time 
 It provides a simple interface for both admin and users to maintain and access library records easily.
 
 ## 🚀 Features
-## 🏫 Admin Features
+**🏫 Admin Features**
 
 -Add, update, and delete books.
 
@@ -540,7 +536,7 @@ It provides a simple interface for both admin and users to maintain and access l
 
 -View all issued books and due dates.
 
-## 👨‍🎓 User Features
+**👨‍🎓 User Features**
 
 -Search for books by title, author, or category.
 
@@ -550,7 +546,7 @@ It provides a simple interface for both admin and users to maintain and access l
 
 -Maintain a history of borrowed books.
 
-## 💾 System Features
+**💾 System Features**
 
 -Real-time book availability tracking.
 
@@ -561,31 +557,31 @@ It provides a simple interface for both admin and users to maintain and access l
 -Data stored securely in a database.
 
 
-# Navigate into the project folder
+**Navigate into the project folder**
 ```
 cd library-management-system
 ```
 
-# Create a virtual environment
+**Create a virtual environment**
 ```
 python -m venv venv
 ```
 
 # Activate virtual environment
-# For Windows:
+**For Windows:**
 ```
 venv\Scripts\activate
 ```
-# For Linux/Mac:
+**For Linux/Mac:**
 ```
 source venv/bin/activate
 ```
-# Install dependencies
+**Install dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-## Run the Application
+**Run the Application**
 
 -For Flask:
 ```
@@ -621,11 +617,258 @@ library-management-system/
 │   ├── issue.py
 │
 └── README.md
+
+```
+## 7 Hotel Management System Using Python & Django
+## 📘 Overview
+
+The Hotel Management System is a web-based application built using Python and the Django Framework.
+It streamlines hotel operations such as room reservations, customer management, check-in/check-out processes, and billing.
+This system helps hotels manage their day-to-day tasks efficiently, reducing manual errors and improving guest experience.
+
+## 🎯 Objectives
+
+-To manage hotel room bookings and availability digitally.
+
+-To provide a user-friendly interface for both administrators and customers.
+
+-To automate guest check-in/check-out and billing processes.
+
+-To maintain a centralized database for all hotel operations.
+
+## 🚀 Key Features
+## 👨‍💼 Admin Panel
+
+-Add, edit, delete room details.
+
+-Manage customer data and booking records.
+
+-Approve or reject room booking requests.
+
+-View revenue reports and booking statistics.
+
+-Generate and print invoices.
+
+## 👤 Customer Panel
+
+-User registration and secure login.
+
+-Search for available rooms by date or type.
+
+-Book, modify, or cancel reservations.
+
+-View booking history and payment status.
+
+## 💡 System Features
+
+-Automated room availability updates.
+
+-Role-based authentication (Admin/User).
+
+-Email notifications for booking confirmation.
+
+-Responsive UI for desktop and mobile devices.
+## Setup Steps
+
+## 2️⃣ Navigate to the project directory
+```
+cd hotel-management-system
+```
+## 3️⃣ Create a virtual environment
+```
+python -m venv venv
+```
+## 4️⃣ Activate the environment
+**Windows**
+```
+venv\Scripts\activate
+```
+**macOS/Linux**
+```
+source venv/bin/activate
+```
+**5️⃣ Install dependencies**
+```
+pip install -r requirements.txt
+```
+**6️⃣ Apply database migrations**
+```
+python manage.py migrate
+```
+# 7️⃣ Create an admin user
+python manage.py createsuperuser
+
+# 8️⃣ Run the development server
+```
+python manage.py runserver
 ```
 
-## 7.Hotel Management System Using Python,Django.
+## 📁 Folder Structure
+
+```
+hotel-management-system/
+│
+├── manage.py
+├── requirements.txt
+├── db.sqlite3
+│
+├── hotel/
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+│   └── templates/
+│       ├── base.html
+│       ├── home.html
+│       ├── booking.html
+│       ├── admin_dashboard.html
+│       ├── room_list.html
+│       └── invoice.html
+│
+└── static/
+    ├── css/
+    ├── js/
+    └── images/
+```
 
 ## 8.Pizza Ordering App System Using Python, Django.
+🍕 Pizza Ordering App System Using Python & Django
+📘 Overview
+
+The Pizza Ordering App System is a web-based application built using Python and Django Framework.
+It enables users to order pizzas online, customize toppings and sizes, and track orders in real time.
+Admins can manage the menu, view orders, and handle deliveries efficiently through the admin dashboard.
+
+🎯 Objectives
+
+To provide a convenient platform for customers to order pizzas online.
+
+To allow restaurant admins to manage menus and orders effectively.
+
+To track real-time orders and improve food delivery operations.
+
+To automate billing and record-keeping.
+
+🚀 Key Features
+👤 Customer Features
+
+Register and log in securely.
+
+Browse pizza menu with prices and images.
+
+Customize pizzas (size, crust, toppings).
+
+Add to cart, update quantity, and checkout.
+
+Track order status (Pending, In Progress, Delivered).
+
+View order history and receipts.
+
+👨‍🍳 Admin Features
+
+Manage pizza categories and menu items.
+
+Update prices, toppings, and availability.
+
+Manage customer orders and delivery status.
+
+Generate reports on total sales and orders.
+
+💡 System Features
+
+Authentication and role-based access (Admin/User).
+
+Responsive design for mobile and desktop.
+
+Automated order ID generation.
+
+Optional integration with payment gateways (Razorpay/Stripe).
+
+🏗️ Tech Stack
+Layer	Technology
+Frontend	HTML5, CSS3, Bootstrap, JavaScript
+Backend	Python, Django Framework
+Database	SQLite / MySQL
+Authentication	Django Authentication System
+Payment (Optional)	Razorpay / Stripe API
+Version Control	Git, GitHub
+⚙️ Installation & Setup
+🧾 Prerequisites
+
+Ensure that the following are installed:
+
+Python 3.8 or higher
+
+pip (Python package manager)
+
+Git
+
+🪜 Steps to Run Locally
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/pizza-ordering-app.git
+
+# 2️⃣ Navigate to project directory
+cd pizza-ordering-app
+
+# 3️⃣ Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate      # Windows
+source venv/bin/activate   # macOS/Linux
+
+# 4️⃣ Install dependencies
+pip install -r requirements.txt
+
+## 5️⃣ Apply database migrations
+python manage.py migrate
+
+## 6️⃣ Create admin user
+```
+python manage.py createsuperuser
+```
+## 7️⃣ Run the development server
+```
+python manage.py runserver
+```
+
+## 📁 Folder Structure
+```
+pizza-ordering-app/
+│
+├── manage.py
+├── requirements.txt
+├── db.sqlite3
+│
+├── pizza_app/
+│   ├── admin.py
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── forms.py
+│   └── templates/
+│       ├── base.html
+│       ├── menu.html
+│       ├── cart.html
+│       ├── checkout.html
+│       ├── order_status.html
+│       └── admin_dashboard.html
+│
+└── static/
+    ├── css/
+    ├── js/
+    └── images/
+    ```
+
+## 🧾 requirements.txt
+```
+Django==4.2
+pillow
+python-dotenv
+requests
+djangorestframework
+```
+
 ## 9.Online Food Ordering and Delivery System Using Python.
 ## 10.Blood Management System.
 
