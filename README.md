@@ -55,6 +55,7 @@ A **Car Rental Management System** built to simplify the process of renting vehi
 ---
 
 ## 🗂️ Project Structure
+
 ```
 car-rental-management/
 │
@@ -80,8 +81,8 @@ car-rental-management/
 │
 ├── README.md
 └── .gitignore
+
 ```
----
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
