@@ -953,5 +953,110 @@ Online-Food-Ordering-System/
 └── README.md
 ```
 
-## 10.Blood Management System.
+## 10.Blood Management System Using Python.
+## 🩸 Blood Management System Using Python
+## 📌 Overview
+
+The Blood Management System is a Python-based web application designed to manage and streamline blood donation and distribution between donors, hospitals, and blood banks.
+This system maintains records of blood donors, recipients, available blood units, and requests, ensuring that blood can be provided efficiently during emergencies.
+
+The project aims to digitize the manual blood bank process using Python (Django/Flask), providing a user-friendly interface for users and administrators.
+
+## 🎯 Objectives
+
+-To simplify blood donor registration and blood request processing.
+
+-To maintain an accurate database of available blood types and quantities.
+
+-To connect donors, recipients, and hospitals through a centralized platform.
+
+-To automate notifications and approvals for urgent blood requirements.
+
+## 🧩 Key Features
+## 👤 User/Donor:
+
+-Register and update donor profile
+
+-View blood donation history
+
+-Request for blood donation
+
+-Receive notifications for blood camps and urgent needs
+
+## 🏥 Hospital / Recipient:
+
+-Request specific blood groups
+
+-Check blood availability
+
+-Manage transfusion records
+
+## ⚙️ Admin Panel:
+
+-Add / Manage Donors and Hospitals
+
+-Approve or reject donation and request forms
+
+-Manage blood stock
+
+-Generate reports on donations and blood usage
+
+## ⚙️ Installation Guide
+
+**Clone the Repository**
+```
+git clone https://github.com/yourusername/Blood-Management-System.git
+cd Blood-Management-System
+```
+
+**Create and Activate Virtual Environment**
+```
+python -m venv venv
+venv\Scripts\activate     # For Windows
+source venv/bin/activate  # For Mac/Linux
+```
+
+**Install Required Libraries**
+```
+pip install -r requirements.txt
+```
+
+**Apply Database Migrations**
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+**Create Admin User**
+```
+python manage.py createsuperuser
+```
+
+**Run the Application**
+```
+python manage.py runserver
+```
+
+## 📁 Project Structure
+```
+Blood-Management-System/
+│
+├── bloodapp/
+│   ├── migrations/
+│   ├── static/
+│   ├── templates/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── forms.py
+│
+├── BloodManagement/
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── manage.py
+├── requirements.txt
+└── README.md
+```
 
