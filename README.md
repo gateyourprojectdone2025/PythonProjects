@@ -7,7 +7,7 @@
 ## 7.Hotel Management System Using Python,Django.
 ## 8.Pizza Ordering App System Using Python, Django.
 ## 9.Online Food Ordering and Delivery System Using Python.
-## 10.Blood Management System.
+## 10.Blood Management System Using Python.
 
 ## 1.Car Rental Management System.
 # 🚗 Car Rental Management System
@@ -734,39 +734,39 @@ hotel-management-system/
 ```
 
 ## 8.Pizza Ordering App System Using Python, Django.
-🍕 Pizza Ordering App System Using Python & Django
-📘 Overview
+## 🍕 Pizza Ordering App System Using Python & Django
+## 📘 Overview
 
 The Pizza Ordering App System is a web-based application built using Python and Django Framework.
 It enables users to order pizzas online, customize toppings and sizes, and track orders in real time.
 Admins can manage the menu, view orders, and handle deliveries efficiently through the admin dashboard.
 
-🎯 Objectives
+## 🎯 Objectives
 
-To provide a convenient platform for customers to order pizzas online.
+-To provide a convenient platform for customers to order pizzas online.
 
-To allow restaurant admins to manage menus and orders effectively.
+-To allow restaurant admins to manage menus and orders effectively.
 
-To track real-time orders and improve food delivery operations.
+-To track real-time orders and improve food delivery operations.
 
-To automate billing and record-keeping.
+-To automate billing and record-keeping.
 
-🚀 Key Features
-👤 Customer Features
+## 🚀 Key Features
+## 👤 Customer Features
 
-Register and log in securely.
+-Register and log in securely.
 
-Browse pizza menu with prices and images.
+-Browse pizza menu with prices and images.
 
-Customize pizzas (size, crust, toppings).
+-Customize pizzas (size, crust, toppings).
 
-Add to cart, update quantity, and checkout.
+-Add to cart, update quantity, and checkout.
 
-Track order status (Pending, In Progress, Delivered).
+-Track order status (Pending, In Progress, Delivered).
 
-View order history and receipts.
+-View order history and receipts.
 
-👨‍🍳 Admin Features
+## 👨‍🍳 Admin Features
 
 Manage pizza categories and menu items.
 
@@ -776,58 +776,46 @@ Manage customer orders and delivery status.
 
 Generate reports on total sales and orders.
 
-💡 System Features
+## 💡 System Features
 
-Authentication and role-based access (Admin/User).
+-Authentication and role-based access (Admin/User).
 
-Responsive design for mobile and desktop.
+-Responsive design for mobile and desktop.
 
-Automated order ID generation.
+-Automated order ID generation.
 
-Optional integration with payment gateways (Razorpay/Stripe).
+## 🏗️ Tech Stack
+-Layer	Technology
+-Frontend	HTML5, CSS3, Bootstrap, JavaScript
+-Backend	Python, Django Framework
+-Database	SQLite / MySQL
+-Authentication	Django Authentication System
+-Payment (Optional)	Razorpay / Stripe API
+-Version Control	Git, GitHub
 
-🏗️ Tech Stack
-Layer	Technology
-Frontend	HTML5, CSS3, Bootstrap, JavaScript
-Backend	Python, Django Framework
-Database	SQLite / MySQL
-Authentication	Django Authentication System
-Payment (Optional)	Razorpay / Stripe API
-Version Control	Git, GitHub
-⚙️ Installation & Setup
-🧾 Prerequisites
-
-Ensure that the following are installed:
-
-Python 3.8 or higher
-
-pip (Python package manager)
-
-Git
-
-🪜 Steps to Run Locally
-# 1️⃣ Clone the repository
+## 🪜 Steps to Run Locally
+**1️⃣ Clone the repository**
 git clone https://github.com/your-username/pizza-ordering-app.git
 
-# 2️⃣ Navigate to project directory
+**2️⃣ Navigate to project directory**
 cd pizza-ordering-app
 
-# 3️⃣ Create and activate a virtual environment
+**3️⃣ Create and activate a virtual environment**
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
 
-# 4️⃣ Install dependencies
+**4️⃣ Install dependencies**
 pip install -r requirements.txt
 
-## 5️⃣ Apply database migrations
+**5️⃣ Apply database migrations**
 python manage.py migrate
 
-## 6️⃣ Create admin user
+**6️⃣ Create admin user**
 ```
 python manage.py createsuperuser
 ```
-## 7️⃣ Run the development server
+**7️⃣ Run the development server**
 ```
 python manage.py runserver
 ```
@@ -858,17 +846,112 @@ pizza-ordering-app/
     ├── css/
     ├── js/
     └── images/
-    ```
-
-## 🧾 requirements.txt
-```
-Django==4.2
-pillow
-python-dotenv
-requests
-djangorestframework
-```
+ ```
 
 ## 9.Online Food Ordering and Delivery System Using Python.
+## 🍔 Online Food Ordering and Delivery System Using Python
+## 📌 Overview
+
+The Online Food Ordering and Delivery System is a Python-based web application designed to simplify the process of ordering food online. It allows customers to browse restaurants, select dishes, place orders, and have their food delivered to their doorstep. The system streamlines interactions between customers, restaurants, and delivery staff, ensuring an efficient and user-friendly experience.
+
+This project is developed using Python (with Django/Flask framework), SQLite/MySQL as the database, and includes an admin panel for managing restaurants, menus, and orders.
+
+## 🎯 Features
+## 👨‍🍳 User Features:
+
+-User Registration and Login
+
+-Browse Restaurants and Menus
+
+-Add Food Items to Cart
+
+-Place and Track Orders
+
+-Online Payment (optional integration)
+
+-View Order History
+
+## 🏪 Restaurant Features:
+
+-Manage Restaurant Profile
+
+-Add/Edit/Delete Food Items
+
+-View and Accept/Reject Orders
+
+-Update Order Status (Preparing, Out for Delivery, Delivered)
+
+## 🚴 Delivery Staff Features:
+
+-View Assigned Deliveries
+
+-Update Delivery Status
+
+## ⚙️ Admin Features:
+
+-Manage Users, Restaurants, and Delivery Staff
+
+-View All Orders and Transactions
+
+-Generate Reports and Analytics
+## Installation Steps
+
+**Clone the repository:**
+```
+git clone https://github.com/yourusername/Online-Food-Ordering-System.git
+cd Online-Food-Ordering-System
+```
+
+**Create and activate virtual environment:**
+```
+python -m venv venv
+venv\Scripts\activate    # For Windows
+source venv/bin/activate # For Mac/Linux
+```
+
+**Install dependencies:**
+```
+pip install -r requirements.txt
+```
+
+**Apply migrations:**
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+**Create a superuser:**
+```
+python manage.py createsuperuser
+```
+
+**Run the server:**
+```
+python manage.py runserver
+```
+
+## 🧑‍💻 Project Structure
+```
+Online-Food-Ordering-System/
+│
+├── foodapp/
+│   ├── migrations/
+│   ├── templates/
+│   ├── static/
+│   ├── views.py
+│   ├── models.py
+│   ├── urls.py
+│   └── forms.py
+│
+├── OnlineFoodOrdering/
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── manage.py
+├── requirements.txt
+└── README.md
+```
+
 ## 10.Blood Management System.
 
