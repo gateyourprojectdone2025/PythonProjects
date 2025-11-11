@@ -9,8 +9,8 @@
 ## 9.Online Food Ordering and Delivery System Using Python.
 ## 10.Blood Management System Using Python.
 
-## 1.Car Rental Management System.
-# 🚗 Car Rental Management System
+## 1.Car Dealership Management System.
+# 🚗 Car Dealership Management System
 <img width="1886" height="922" alt="image" src="https://github.com/user-attachments/assets/0ecbef05-b01e-45e9-bc01-6daf3eab3db7" />
 
 
