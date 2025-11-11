@@ -1,4 +1,4 @@
-## 1.Car Rental Management System.
+## 1.Car Dealership Management System.
 ## 2.Invoice and Product Management System Using Python.
 ## 3.Online Shopping and Delivery System.
 ## 4.College Management System.
@@ -11,6 +11,8 @@
 
 ## 1.Car Rental Management System.
 # 🚗 Car Rental Management System
+<img width="1886" height="922" alt="image" src="https://github.com/user-attachments/assets/0ecbef05-b01e-45e9-bc01-6daf3eab3db7" />
+
 
 A **Car Rental Management System** built to simplify the process of renting vehicles for users and managing cars, bookings, and customers for administrators. This system allows users to browse available cars, make bookings, and manage their rentals efficiently. It is designed with modular architecture, offering both frontend and backend functionalities.
 
@@ -125,6 +127,8 @@ npm start
 ```
 ## 2.Invoice and Product Management System Using Python.
 # 🧾 Invoice and Product Management System Using Python
+<img width="1489" height="787" alt="image" src="https://github.com/user-attachments/assets/66964b46-5777-453a-8ede-fe473b8217d7" />
+
 
 The **Invoice and Product Management System** is a desktop-based application designed to simplify product inventory handling and automate the process of generating invoices. It allows users to manage product details, track sales, and print invoices efficiently using Python.
 
@@ -199,6 +203,8 @@ python main.py
 
 ## 3.Online Shopping and Delivery System.
 # 🛒 Online Shopping and Delivery System
+<img width="771" height="477" alt="image" src="https://github.com/user-attachments/assets/c59a12fd-2268-4724-b7d5-153f5d696535" />
+
 
 The **Online Shopping and Delivery System** is a full-stack web application designed to provide a seamless online shopping experience for users and efficient order management for administrators. It enables customers to browse products, place orders, and track deliveries, while the admin manages products, users, and orders through an intuitive dashboard.
 
@@ -313,6 +319,8 @@ npm start
 ```
 ## 4.College Management System.
 # 🎓 College Management System
+<img width="1908" height="919" alt="image" src="https://github.com/user-attachments/assets/94926e1f-6ca3-4328-adeb-afd75a2fe88a" />
+
 
 The **College Management System (CMS)** is a full-stack application designed to automate and streamline the day-to-day administrative and academic operations of a college. It allows administrators, teachers, and students to interact within a centralized system for managing courses, attendance, grades, and communication efficiently.
 
@@ -430,7 +438,9 @@ npm start
 ```
 ## 5.A Smart Blogging & Content Sharing Platform.
 
-## 🧠 Smart Blogging & Content Sharing Platform (Python)
+## 🧠 Smart Blogging & Content Sharing Platform 
+<img width="1477" height="792" alt="image" src="https://github.com/user-attachments/assets/adf13a9e-0a04-4986-9123-810c2738c9d1" />
+
 
 A smart, AI-assisted blogging and content-sharing platform built using Python that enables users to create, share, and interact with blog posts. The system includes intelligent recommendations, user authentication, and a clean responsive interface for writers and readers.
 
@@ -519,7 +529,9 @@ smart-blogging-platform-python/
 └── README.md
 ```
 ## 6.Library Management System.
-## 📚 Library Management System (Python)
+## 📚 Library Management System
+<img width="1882" height="918" alt="image" src="https://github.com/user-attachments/assets/1ba430dc-76c0-43fb-a6be-f30781a3dff7" />
+
 
 A Library Management System (LMS) built using Python that helps librarians and users manage books efficiently.
 The system allows adding, updating, issuing, and returning books with real-time availability tracking.
@@ -620,6 +632,8 @@ library-management-system/
 
 ```
 ## 7 Hotel Management System Using Python & Django
+<img width="1880" height="919" alt="image" src="https://github.com/user-attachments/assets/a8f4c7f9-9239-4d68-8ad4-0e2b37c3e738" />
+
 ## 📘 Overview
 
 The Hotel Management System is a web-based application built using Python and the Django Framework.
@@ -735,11 +749,14 @@ hotel-management-system/
 
 ## 8.Pizza Ordering App System Using Python, Django.
 ## 🍕 Pizza Ordering App System Using Python & Django
+<img width="1895" height="912" alt="image" src="https://github.com/user-attachments/assets/b806d979-1d35-4d61-b26d-1290663bc770" />
+
 ## 📘 Overview
 
 The Pizza Ordering App System is a web-based application built using Python and Django Framework.
 It enables users to order pizzas online, customize toppings and sizes, and track orders in real time.
 Admins can manage the menu, view orders, and handle deliveries efficiently through the admin dashboard.
+
 
 ## 🎯 Objectives
 
@@ -850,6 +867,8 @@ pizza-ordering-app/
 
 ## 9.Online Food Ordering and Delivery System Using Python.
 ## 🍔 Online Food Ordering and Delivery System Using Python
+![Uploading image.png…]()
+
 ## 📌 Overview
 
 The Online Food Ordering and Delivery System is a Python-based web application designed to simplify the process of ordering food online. It allows customers to browse restaurants, select dishes, place orders, and have their food delivered to their doorstep. The system streamlines interactions between customers, restaurants, and delivery staff, ensuring an efficient and user-friendly experience.
@@ -955,6 +974,7 @@ Online-Food-Ordering-System/
 
 ## 10.Blood Management System Using Python.
 ## 🩸 Blood Management System Using Python
+<img width="1877" height="914" alt="Screenshot 2025-09-08 120627" src="https://github.com/user-attachments/assets/5c4f9a9e-905f-4c56-a685-7610eb1949e2" />
 ## 📌 Overview
 
 The Blood Management System is a Python-based web application designed to manage and streamline blood donation and distribution between donors, hospitals, and blood banks.
